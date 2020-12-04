@@ -27,5 +27,6 @@ function prependKitten(name) {
 }
 
 function appendKitten(name) {
-  newArr = kittens.push()
+  newArr = kittens.push(name)
 }
+
