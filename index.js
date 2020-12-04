@@ -32,5 +32,5 @@ function appendKitten(name) {
   return newArr
 }
 
-console.log(appendKitten(broom))
+console.log(appendKitten('broom'))
 
