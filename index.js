@@ -21,3 +21,11 @@ function destructivelyRemoveFirstKitten() {
   kittens.shift()
   return kittens
 }
+
+function prependKitten(name) {
+  newArr = kittens.unshift(name)
+}
+
+function appendKitten(name) {
+  newArr = kittens.push()
+}
