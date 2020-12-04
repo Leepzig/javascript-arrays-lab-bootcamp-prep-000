@@ -33,7 +33,7 @@ function appendKitten(name) {
 }
 
 function removeLastKitten() {
-  var newArr = kittens.slice(0,(Kittens.length-1))
+  var newArr = kittens.slice(0,(kittens.length-1))
   return newArr
 }
 function removeFirstKitten() {
