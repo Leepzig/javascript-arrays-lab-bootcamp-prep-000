@@ -32,5 +32,11 @@ function appendKitten(name) {
   return newArr
 }
 
+function removeLastKitten() {
+  var newArr = 
+}
+function removeFirstKitten() {
+  
+}
 console.log(appendKitten('broom'))
 
