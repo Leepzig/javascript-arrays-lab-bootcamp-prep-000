@@ -34,9 +34,11 @@ function appendKitten(name) {
 
 function removeLastKitten() {
   var newArr = Kittens.slice()
+  return newArr
 }
 function removeFirstKitten() {
-  
+  var newArr = Kittens.slice(1)
+  return newArr
 }
 console.log(appendKitten('broom'))
 
